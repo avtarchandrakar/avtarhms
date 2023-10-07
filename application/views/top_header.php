@@ -96,6 +96,9 @@
 
    echo  link_tag('assets/plugins/summernote/css/summernote.css');
 
+   echo  link_tag('assets/css/jquery.timepicker.min.css');
+   echo  link_tag('assets/css/bootstrap-datepicker.min.css');
+
 
 
 
@@ -486,6 +489,7 @@
       <section id="content" class="seipkon-content-wrapper">
          <script src="<?php echo base_url('assets/js/jquery-3.1.0.min.js') ?>"></script>
 
+   
          <script>
             $(document).ready(function(e) {
 
@@ -515,3 +519,6 @@
 
             });
          </script>
+
+<script src="<?php echo base_url('assets/js/datepicker.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/js/jquery.timepicker.js') ?>"></script>

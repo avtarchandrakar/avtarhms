@@ -159,7 +159,7 @@
         
         <li class="">
 
-          <a href="<?php echo site_url('Opd/opd') ?>" class="mynev-links"> <img class="icon-size" src="<?php echo base_url('uploads/icon/student.png');?>"> OPD </a>
+          <a href="<?php echo site_url('Opd/index') ?>" class="mynev-links"> <img class="icon-size" src="<?php echo base_url('uploads/icon/student.png');?>"> OPD </a>
         </li>
 
         <li>
@@ -184,6 +184,9 @@
             <li><a href="<?php echo site_url('billing_Items/billing_item_form') ?>" class="mynev-links">Billing Item</a></li>
             <li><a href="<?php echo site_url('Department/department_list') ?>" class="mynev-links">Department</a></li>
             <li><a href="<?php echo site_url('Tariff/tariff_list') ?>" class="mynev-links">Tariff</a></li>
+            <li><a href="<?php echo site_url('Company/company_list') ?>" class="mynev-links">Company</a></li>
+            <li><a href="<?php echo site_url('patient_category/patient_category_list') ?>" class="mynev-links">Patient Category</a></li>
+            <li><a href="<?php echo site_url('insurance/insurance_list') ?>" class="mynev-links">Insurance </a></li>
             <li><a href="<?php echo site_url('Location/state') ?>" class="mynev-links">State</a></li>
             <li><a href="<?php echo site_url('Location/city') ?>" class="mynev-links">City</a></li>
             <li><a href="<?php echo site_url('Slider') ?>" class="mynev-links">Slider</a></li>

@@ -1,11 +1,4 @@
 <script type="text/javascript">
-
-
-
-
-
-  
-
  var cls_table = $(".dash_datatable").DataTable({
 
    'order': [[0, "asc"]],
